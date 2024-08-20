@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+.container {
+    background-color: powderblue;
+    width: 10cm;
+    font-size: 20px;
+}
+.item01 {
+    border: 1px solid;
+    width: 20em;
+    height: 5rem;
+    padding: 5ch;
+}
+/*.container div {
+    color: black;
+}
+.container + p {
+    color: blueviolet;
+}
+.item ~ div {
+    color: grey;
+}
+[class] {
+
+    text-decoration: underline;
+} 
+ .item :first-child {
+    color: brown;
+ }.item :first-of-type {
+    color: indigo; 
+ } */
+  .item:nth-child(3) {
+    color: orange;
+}

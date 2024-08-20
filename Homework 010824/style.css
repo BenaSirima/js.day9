@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+body {
+   background-image: url(./pics/2024_5_28_22.37.14.jpg);
+}
+  .home {
+    color: white;
+    display: flex;
+    justify-content: end;
+
+  }
+.main {
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.gap {
+    margin-bottom: 20px;
+}
+.footer {
+    color: beige;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.text { 
+    color: beige;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+.loading {
+    background-color: white;
+    height: 20px;
+    width: 500px;
+    margin: auto;
+    }   
+.bar {
+    background-color: gray;
+    height: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+}  
+.download {
+    color: wheat;
+    display: flex;
+    margin: auto;
+    width: 500px;
+    justify-content: space-between;
+}   
+.button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.press {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: powderblue;
+}
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: flex-start;
+    margin: auto;
+    padding-top: 20px; 
+    size: 20%;
+}
+.pics img {
+    width: 50px;
+    height : 50px
+}
+.line {
+    background-color: white;
+    height: 2px;
+    text-align: center;
+}
+.underline {
+    color: beige;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+hr {
+    width: 1900px;
+}
+.space {
+    height: 60px;
+}
+
+
+
+ 
+   

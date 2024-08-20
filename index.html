@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      .profile-image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+      }
+
+      .featured-image {
+        width: 100%;
+        height: auto;
+      }
+
+      .featured-work {
+        margin-bottom: 30px;
+      }
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      .nav-link {
+        color: #000;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 1);
+        font-weight: 500;
+        font-size: 20px;
+      }
+
+      nav ul li a.active {
+        color: rgba(255, 100, 100, 1);
+      }
+
+      nav ul li a:hover {
+        color: rgba(255, 100, 100, 1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <button
+        class="navbar-toggler"
+        style="margin-left: auto"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./work.html">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../homework4/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container text-center mt-5">
+      <div class="row">
+        <div class="col-12 col-md-6 order-md-2 text-center text-md-left">
+          <img
+            src="images/p.png"
+            alt="John"
+            class="profile-image mb-3 mb-md-0 ml-5 ml-md-0"
+          />
+        </div>
+        <div class="col-12 col-md-6 order-md-1 text-left">
+          <h1>Hi, I am Bena, Creative Technologist</h1>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <a
+            href="#"
+            class="btn btn-primary"
+            style="background-color: #ff6464; border-color: #ff6464"
+            >Download Resume</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="mt-5" style="background-color: #edf7fa; padding: 30px">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <h2>Recent posts</h2>
+          <a href="#">View all</a>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-4" style="border: none; border-radius: 0px">
+              <div class="card-body">
+                <h5 class="card-title">Making a design system from scratch</h5>
+                <p class="card-text">12 Feb 2020 | Design, Pattern</p>
+                <p class="card-text">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4" style="border: none; border-radius: 0px">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Creating pixel perfect icons in Figma
+                </h5>
+                <p class="card-text">12 Feb 2020 | Figma, Icon Design</p>
+                <p class="card-text">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <h2>Featured works</h2>
+      <div class="featured-work row">
+        <div class="col-12 col-md-4">
+          <img src="https:picsum.photos/200 alt""">
+            alt="Designing Dashboards"
+            class="featured-image mb-3"
+          />
+        </div>
+        <div class="col-12 col-md-8">
+          <h3>Designing Dashboards</h3>
+          <p><font class="year">2020</font> | Dashboard</p>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <div class="featured-work row">
+        <div class="col-12 col-md-4">
+          <img
+            src="images/image2.png"
+            alt="Vibrant Portraits of 2020"
+            class="featured-image mb-3"
+          />
+        </div>
+        <div class="col-12 col-md-8">
+          <h3>Vibrant Portraits of 2020</h3>
+          <p><font class="year">2020</font> | Illustration</p>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <div class="featured-work row">
+        <div class="col-12 col-md-4">
+          <img
+            src="images/image3.png"
+            alt="36 Days of Malayalam type"
+            class="featured-image mb-3"
+          />
+        </div>
+        <div class="col-12 col-md-8">
+          <h3>36 Days of Malayalam type</h3>
+          <p><font class="year">2018</font> | Typography</p>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center mt-5">
+       <footer class="footer">
+        <div class="logo">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-invision"></i>
+      </div>
+      <p>&copy; 2020 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

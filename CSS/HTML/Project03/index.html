@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .text, input, .submit-btn {
+            background-color: pink;
+            margin-bottom: 8px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <hr>
+ 
+      <form action="./thanks.html" method="get">
+    <div id="inp1" class="text input"> 
+        <label for="Name">First name:</label>
+        <input type="text" name="fname" placeholder="Enter name...">
+        <label for="age">Age:</label>
+        <input type="text" name="name" id="firstname"> 
+    </div>
+        <div id="inp2" class="text input">
+
+        </div>
+        <span>Gender :</span>
+        <label>
+            <input type="radio" name="Gender" value="male" checked>
+            Male
+        </label>
+        <label>
+            <input type="radio" name="Gender" value="Female">
+            Female
+            <label>
+                <input type="radio" name="Gender" value="Others">
+                Others
+            </label>
+        </label>
+        <div>
+            <label>
+                <input type="checkbox" name="isDev" value="yes">
+                i'm dev
+            </label>
+        </div>
+        <div class="textinput">
+            <label>
+                Subject :
+                <select name="Subject">
+                    <option disabled selected>Please Select...</option>
+
+                
+                    <option value="h101">HTML</option>
+                    <option value="c101">CSS</option>
+                    <option value="j101">Javascript</option>
+                </select>
+            </label>
+        <div>
+            <label> note:
+                <textarea name="note" rows="10" cols="40"></textarea>
+            </label>
+        </div>
+        <div>
+            <label> 
+                Birth date :
+                <input type="date" name="Bday">
+            </label>
+        </div>
+    
+        <div class="submit-btn">
+            <button>SayHi!</button>
+            <button>Agree</button>
+        <input type="button" value="ok">
+        <input type="submit">
+        <input type="reset" value="Clear">
+        </div>
+      </form>
+
+
+</body>
+</html>

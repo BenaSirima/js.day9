@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: aqua;
+    padding: 8px;
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: flex-start;
+    min-height: 300px;
+    align-items: flex-end;
+}
+.item {
+border: 1px dashed salmon;
+padding: 10px;
+
+}
+.item04 {
+    font-size: 24px;
+    align-items: baseline;
+    justify-content: center;
+    border: 1px dashed salmon;
+
+}
+.wrapper {
+    display: flex;
+    background-color: beige;
+    padding: 8px;
+    align-items: baseline;
+    width: 100%;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+h2 {
+    border: 1px solid seagreen;
+    color: red;
+    background-color: aquamarine;
+    position: sticky;
+}
+p {
+    background-color: bisque;
+    left: 20px;
+    border: 1px solid powderblue;
+    top: 20px;
+    z-index: -20;
+}
+.container {
+    position: relative;
+    background-color: blueviolet;
+    padding: 8px;
+    min-height: 400px;
+    width 80%;
+    margin: auto;
+}
+.item {
+    position: absolute;
+    border: 1px solid;
+    background-color: palegreen;
+    padding: 20px;
+    left: 100px;
+    right: 100px;
+    top: 50px;
+    bottom: 50px;
+}
+h1 {
+    position: fixed;
+    top: 50%;
+    color: aqua;
+    width: 100%;
+    z-index: 99;
+}

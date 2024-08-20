@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: salmon;
+    min-height: 100vh;
+    display: grid;
+}
+.container >* {
+    border: 1px dashed black;
+}
+header {
+    grid-column: 1/1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

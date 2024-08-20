@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout Flex</title>
+    <style>
+        .Logo {
+            background-color: powderblue;
+            color: black;
+        }
+        nav {
+            background-color: salmon;
+        }
+        header {
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-items: flex-end;
+        }
+        nav {
+            display: flex;
+            gap: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <h2>Logo</h2>
+        </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    </header>
+    
+</body>
+</html>
