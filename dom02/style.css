@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    border: 2px dashed red;
+    padding: 32px;
+
+}
